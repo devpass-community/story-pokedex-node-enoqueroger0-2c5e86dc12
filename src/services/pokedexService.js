@@ -7,7 +7,7 @@ const getPokemon = async (id) => {
         .then(
             function (response) {
                 // Add your solution here!
-                result = response.json();
+                result = response.data;
             }
         );
 
